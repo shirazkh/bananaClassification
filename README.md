@@ -1,4 +1,3 @@
-readme_content = """
 # Banana Ripeness Classifier with fastai 🍌
 
 This repository contains a Jupyter Notebook that implements an image classifier to predict the ripeness stage of bananas (unripe, ripe, rotten) using the fastai library.
@@ -45,10 +44,3 @@ banana_ripeness/
 ## Dependencies
 
 The notebook uses the `fastai` library, which comes pre-installed in Google Colab. No additional `pip install` commands are typically needed for basic fastai usage in Colab.
-
-"""
-
-with open('README.md', 'w') as f:
-    f.write(readme_content)
-
-print("README.md file created successfully in the current directory.")
